@@ -60,7 +60,7 @@ video-intro {
 .portofolio{
     display: block;
     width: 275px;
-    height: 275px;
+    height: 270px;
 }
 
 .container hr {
@@ -144,10 +144,6 @@ label {
     padding: 0;
 }
 
-body {
-    margin: 20px;
-}
-
 h1 {
     font-size: 1.5em;
     margin: 10px;
@@ -159,10 +155,6 @@ fieldset,
 label {
     margin: 0;
     padding: 0;
-}
-
-body {
-    margin: 20px;
 }
 
 h1 {
