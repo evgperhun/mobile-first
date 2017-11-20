@@ -1,30 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="UK">
 
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Lanova Studio</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
 </head>
-
 <body>
     <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="logo">
+        </div>
         <div class="lanova">
             <h1>Olga Lanova</h1>
             <h3>Nail Art Manicure</h3>
         </div>
+        <div class="head">
+            <div class="social-networks">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+        </div>
+        <hr>
         <img class="burger-menu" src="img/burger-menu.jpg" alt="menu">
         <nav>
             <ul class="menu">
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Портофоліо</a></li>
-                <li><a href="#">Блог</a></li>
-                <li><a href="#">Курси</a></li>
-                <li><a href="#">Контакти</a></li>
+                <li><a class="active" href="#">Головна</a></li>
+                <li><a class="smooth" href="#portfolio">Портофоліо</a></li>
+                <li><a class="smooth" href="#blog">Блог</a></li>
+                <li><a class="smooth" href="#cours">Курси</a></li>
+                <li><a class="smooth" href="#contact">Контакти</a></li>
             </ul>
         </nav>
+        <hr>
     </header>
     <br>
     <main>
@@ -40,13 +55,6 @@
             </blockquote>
         </div>
         <br>
-        <div class="social-networks">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-youtube-play" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-        </div>
-        
         <div class="container">
             <hr>
             <h2>Про нас</h2>
@@ -54,7 +62,9 @@
             <p>Привіт всім, наша студія відносно молода, в ттому форматі якому ви її звикли бачити. Відкриття в Червонограді співпало з днем закоханих на початку 2017 року, мидуже хотіли в тішились тому що знайшли нагоду донести наш сервіс і майстерність яку здобули на протязі довгих років тепер і в сюди.<br> Мене звати Оля я э власником і одночасно майстром. Працюю в цій сфері більше 8 років. ласкаво просимо вас познайомитись із нашими послугами і колективом.</p>
         </div>
         <div class="container">
+            <hr>
             <h2>Майстерність та креатив</h2>
+            <hr>
             <p>Це причини чому в нас краще</p>
             <div class="creative">
                 <figure>
@@ -72,31 +82,46 @@
                 <p> Сухожар та хімічна стерелізація. Індивідуальний інструмент* 7 днів гарантія на покриття</p>
             </div>
         </div>
-        
+
         <div class="container">
             <hr>
-            <h2>Портофоліо</h2>
+            <h2 id="portfolio">Портофоліо</h2>
             <hr>
-            <img class="portofolio" src="img/2.jpg" alt="manicure">
+            <div class="carousel">
+                <img class="portofolio" src="img/a.jpg" alt="manicure">
+                <img class="portofolio" src="img/aa.jpg" alt="manicure">
+                <img class="portofolio" src="img/aaa.jpg" alt="manicure">
+                <img class="portofolio" src="img/aaaa.jpg" alt="manicure">
+                <img class="portofolio" src="img/aaaaa.jpg" alt="manicure">
+            </div>
         </div>
         <div class="container">
             <hr>
-            <h2>Блог</h2>
+            <h2 id="blog">Блог</h2>
             <hr>
-            <p>Очікується наповнення.</p>
+            <div class="box"><img src="img/art.jpg"></div>
+            <div class="box"><img src="img/art2.jpg"></div>
+            <div class="box"><img src="img/art3.jpg"></div>
         </div>
         <div class="container">
             <hr>
-            <h2>Курси</h2>
+            <h2 id="cours">Курси</h2>
             <hr>
-            <p>Онлайн форма для проходження курсів</p>
+            <p>Наші курси: Я – Спеціаліст нігтьвої естетики. Сьогодні існує величезна кількість різноманітних видів манікюру — це і гігієнічний, біологічний, сухий і мокрий манікюр, класичний, лікувальний, зміцнюючий, апаратний, SPA-манікюр і це ще не весь список.<br> Гарні красиві руки — бажання кожної людини сьогодення. Знайдіть себе в новій професії!</p>
+            <ul>
+                <li>Класичний манікюр</li>
+                <li>Клачиний педікюр</li>
+                <li>Апаратний манікюр</li>
+                <li>Апаратний педікюр</li>
+            </ul>
+            <p>Наша студя проводить курси підвищення кваліфікації вже для майстрів з досвідом так і для початківців.<br>для заповнення анкети перейдіть будласка за <a href="#" >посиланням</a> і заповніть форму.</p>
         </div>
         <div class="container">
             <hr>
             <h2>Майстри</h2>
             <hr>
             <h3> Талановиті професіонали</h3>
-        
+
             <div class="section">
                 <div class="card">
                     <img src="img/lanova.png" alt="Maria Chipko" style="width:100%">
@@ -128,7 +153,7 @@
         <footer>
             <div class="container">
                 <hr>
-                <h2>Контакти</h2>
+                <h2 id="contact">Контакти</h2>
                 <hr>
                 <p>м.Червоноград, Шептицького 18</p>
                 <p>тел. 0737732155</p>
@@ -147,7 +172,11 @@
             </div>
         </footer>
     </main>
-    <script src="https://use.fontawesome.com/25282f1dc5.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/smooth-scrool.js"></script>
 </body>
 
 </html>
